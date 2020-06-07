@@ -1,0 +1,209 @@
+body, html{
+	height: 100%;
+	overflow-x: hidden;
+}
+.bg-transparente-menu{
+	background: rgba(0,0,0,0.5);
+}
+#menu-hamb h4{
+	font-family: "Calibri Light"
+}
+
+#home{
+	text-align: center;
+	height: 100%;
+}
+.bg-transparente{
+	background: rgba(255,255,255,0.5);
+}
+
+.bg-geral{
+	background: url('../imagens/bg.jpg') no-repeat;
+	background-attachment: fixed;
+}
+#navegacao{
+	justify-content: center;
+	transition: 3s, 3s;
+}
+a{
+	text-decoration: none;
+}
+
+header nav.navbar-dark .navbar-nav:hover{
+	border-radius: 20px;
+	background: #424242;
+	transition: 3s, 3s;
+}
+
+
+header nav.navbar-dark .navbar-nav{
+	transition: 1s, 1s;
+}
+
+#navegacao li{
+	text-transform: uppercase;
+	margin: 28px 37px;
+	height: 100%;
+	transition: 0.7s, 0.7s;
+
+}
+
+#navegacao li:hover{
+	transition: 0.7s, 0.7s;
+	border-bottom: 2px solid #671616;
+	height: 100%;
+	margin: 18px 37px;
+}
+#home-pag{
+	transition: 0.7s, 0.7s;
+	border-bottom: 2px solid #671616;
+	height: 100%;
+	margin: 0 37px;
+}
+.btn-custom{
+	color: #C0C0C0;
+	margin-top: 15px;
+	border:1px solid #671616;
+}
+
+.btn-custom:hover{
+	color: white;
+	margin-top: 15px;
+	border:1px solid #F2F2F2;
+}
+.btn-custom-dois{
+	background: black;
+	color: #C0C0C0;
+	border:1px solid white;
+}
+.btn-custom-dois:hover{
+	background: black;
+	color: white;
+	border:1px solid black;
+}
+ol li{
+	margin: 20px 0px;
+}
+footer i{
+	width: 64px;
+}
+footer li a{
+	color: #C75F5F;
+}
+footer li a:hover{
+	background-size: 15px;
+	color: white;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (min-width: 268.98px) and (max-width: 575.98px) {
+	#home h1{
+		font-size: 20px;
+	}
+	#conteudo-um h1{
+		font-size: 38px;
+	}
+	.legenda{
+		font-size: 24px;
+	}
+	#rodape h1{
+		font-size: 12px;
+	}
+	#rodape ul{
+		font-size: 12px;
+		width: 10px;
+	}
+	#rodape span{
+		font-size: 14px;
+	}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	#home h1{
+		font-size: 24px;
+	}
+	#conteudo-um h1{
+		font-size: 38px;
+	}
+	.legenda{
+		font-size: 24px;
+	}
+	#rodape h1{
+		font-size: 12px;
+	}
+	#rodape ul{
+		font-size: 12px;
+		width: 10px;
+	}
+	#rodape span{
+		font-size: 14px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	#home h1{
+		font-size: 30px;
+	}
+	#navegacao a{
+		font-size: 12px;
+		padding: 0;
+		margin: 0;
+	}
+	#navegacao li{
+		font-size: 12px;
+		padding: 0;
+		margin: 24px;
+		margin-top: 40px;
+	}
+	#conteudo-um h1{
+		font-size: 38px;
+	}
+	.legenda{
+		font-size: 24px;
+	}
+	
+	#rodape ul{
+		font-size: 12px;
+		width: 10px;
+	}
+	#rodape span{
+		font-size: 14px;
+	}
+}
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	#home h1{
+		font-size: 44px;
+	}
+	#navegacao a{
+		font-size: 16px;
+	}
+	#navegacao li{
+		font-size: 12px;
+		padding: 0;
+		margin: 24px;
+		margin-top: 28px;
+	}
+	#conteudo-um h1{
+		font-size: 38px;
+	}
+	.legenda{
+		font-size: 24px;
+	}
+	
+	#anexo-lateral div{
+		float: none;
+	}
+	#rodape span{
+		font-size: 14px;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
+}
+
